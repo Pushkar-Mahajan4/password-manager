@@ -1,0 +1,12 @@
+.window-header
+{
+    background: #E9633B;    
+    color:  #ECEAE0;
+    text-shadow: 0.5px 0.5px black;
+    padding: $s-size 0  $s-size  $s-size;
+    border-bottom: 10px solid  rgba(0,0,0,0.5);
+    font-size: $xl-size;
+    font-family: $cursive;
+    width: auto; 
+    height: auto;
+}

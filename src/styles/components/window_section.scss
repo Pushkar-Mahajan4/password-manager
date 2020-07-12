@@ -1,0 +1,81 @@
+
+::placeholder
+{
+    font-size: $m-size;
+}
+
+
+.window
+{
+    
+    height: 72rem;
+    width: 75rem;
+    margin: $xl-size auto;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: $xl-size;
+    z-index: -1;
+   
+}
+
+
+.window-content
+{
+   margin: 0 auto;
+}
+
+
+.email
+{
+    margin-top: 15rem;
+    background: $off-white;
+    border: none;
+    font-size: $m-size;
+    outline: none;
+    border-bottom: 2px solid $orange;
+    padding-left: 7px;
+    width: 50rem;
+    height: $xl-size;
+}
+
+.password
+{
+    height: $xl-size;
+    width: 50rem;
+    margin-top: 15rem;
+    background: $off-white;
+    outline: none;
+    font-size: $m-size;
+    border: none;
+    border-bottom: 2px solid $orange;
+    padding-left: 7px;
+    margin: 0 auto;
+}
+
+.login
+{
+    margin: 6rem 0rem;   // vertcal, hroziontal
+    border: none;
+    background: $orange;
+    box-shadow: 0 5px rgba(0,0,0,0.5);
+    width: 51rem;
+    font-size: $m-size;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    color: $off-white;
+    height: $xl-size;
+   
+}
+
+.login:hover
+{
+    background-color: #c23d16;
+}
+
+.login:active
+{
+    background-color: $brown;
+    box-shadow: 0 5px rgba(0,0,0,0.5);
+    transform: translate(5px);
+}

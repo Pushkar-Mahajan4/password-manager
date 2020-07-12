@@ -1,0 +1,21 @@
+html
+{
+   font-size: 62.5%;  
+}
+
+body
+{
+     background:$brown;
+}
+
+.window{
+   background: $off-white;
+}
+
+
+
+.window-content {
+  
+   display: flex;
+   justify-content: center; 
+}
